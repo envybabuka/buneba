@@ -1,0 +1,92 @@
+* {
+  font-family: "Noto Sans Georgian", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav .nav-all {
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-all .logo-div img {
+  width: 130px;
+  margin-top: 14px;
+  margin-left: 110px;
+  cursor: pointer;
+}
+nav .nav-all .nav-links ul {
+  display: flex;
+}
+nav .nav-all .nav-links ul .but {
+  margin-top: 15px;
+}
+nav .nav-all .nav-links ul li {
+  margin-top: 24px;
+  margin-bottom: 20px;
+}
+nav .nav-all .nav-links ul li a {
+  margin-right: 40px;
+  transition: 0.2s;
+}
+nav .nav-all .nav-links ul li a:hover {
+  color: rgb(112, 193, 116);
+}
+nav .nav-all .nav-links ul li button {
+  margin-right: 110px;
+  background: rgb(29, 33, 48);
+  padding: 12px 32px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+nav .nav-all .nav-links ul li button:hover {
+  border-radius: 12px 4px;
+  background-color: rgb(112, 193, 116);
+}
+
+header {
+  background: url(img/header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 91.8vh;
+}
+header .b-info {
+  margin-left: 110px;
+  padding-top: 128px;
+}
+header .b-info h1 {
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 87px;
+  color: white;
+  margin-bottom: 48px;
+}
+header .b-info .b-buttons {
+  display: flex;
+}
+header .b-info .b-buttons a {
+  color: white;
+  margin-left: 5px;
+  padding-top: 7px;
+}
+header .b-info .b-buttons button {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  margin-right: 24px;
+}
+header .b-info .b-buttons button:hover {
+  border-radius: 4px 12px;
+  background-color: rgb(190, 243, 192);
+}/*# sourceMappingURL=pirveli.css.map */

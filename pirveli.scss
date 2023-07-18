@@ -1,0 +1,121 @@
+*{
+    font-family: 'Noto Sans Georgian', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style:none;
+}
+$greenP: rgba(112, 193, 116, 1);
+$greenS:rgba(190, 243, 192, 1);
+$greenT:rgba(239, 247, 242, 1);
+$primaryText: rgba(29, 33, 48, 1);
+$secondaryText: rgba(82, 85, 96, 1);
+$off-white: rgba(235, 240, 249, 1);
+$border: rgba(229, 229, 229, 1);
+@mixin shavi(){
+    background: rgba(29, 33, 48, 1);
+    padding: 12px 32px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+@mixin mwvane(){
+    background: rgba(112, 193, 116, 1);
+    padding: 12px 32px;
+    color:$primaryText;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+@mixin tetri(){
+    background: rgba(255, 255, 255, 1);
+    padding: 12px 32px;
+    color:$primaryText;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    transition: 0.4s;
+}
+nav{
+    .nav-all{
+        display: flex;
+        justify-content: space-between;
+        .logo-div{
+            img{
+                width:130px;
+                margin-top: 14px;
+                // margin-bottom: 24px;
+                margin-left: 110px;
+                cursor: pointer;
+            }
+        }
+        .nav-links{
+            ul{
+                .but{
+                    margin-top: 15px;
+                }
+                display: flex;
+                li{
+                    margin-top: 24px;
+                    margin-bottom: 20px;
+                    a{
+                        margin-right: 40px;
+                        transition: 0.2s;
+                        &:hover{
+                            color: $greenP;
+                        }
+                    }
+                    button{
+                        margin-right: 110px;
+                        @include shavi;
+                        cursor: pointer;
+                        &:hover{
+                            border-radius: 12px 4px;
+                            background-color: $greenP;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+header{
+    background: url(img/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 91.8vh;
+    .b-info{
+        margin-left: 110px;
+        padding-top: 128px;
+        h1{
+            font-size: 64px;
+            font-weight: 700;
+            line-height: 87px;
+            color: white;
+            margin-bottom: 48px;
+        }
+        .b-buttons{
+            display: flex;
+            a{
+                color: white;
+                margin-left: 5px;
+                padding-top: 7px
+            }
+            button{
+                @include tetri;
+                cursor: pointer;
+                margin-right: 24px;
+                &:hover{
+                    border-radius: 4px 12px;
+                    background-color: $greenS;
+                }
+            }
+        }
+    }
+}
+
