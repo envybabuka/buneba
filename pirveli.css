@@ -24,7 +24,7 @@ nav .nav-all .nav-links ul .but {
   margin-top: 15px;
 }
 nav .nav-all .nav-links ul li {
-  margin-top: 24px;
+  margin-top: 28px;
   margin-bottom: 20px;
 }
 nav .nav-all .nav-links ul li a {
@@ -54,7 +54,7 @@ header {
   background: url(img/header.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height: 91.8vh;
+  height: 735px;
 }
 header .b-info {
   margin-left: 110px;
@@ -89,4 +89,142 @@ header .b-info .b-buttons button {
 header .b-info .b-buttons button:hover {
   border-radius: 4px 12px;
   background-color: rgb(190, 243, 192);
+}
+
+.cont-1 {
+  display: flex;
+}
+.cont-1 .info {
+  margin-top: 158px;
+}
+.cont-1 .info .abzaci-1 {
+  display: flex;
+  margin-left: 11px;
+  margin-right: 24px;
+}
+.cont-1 .info .abzaci-1 p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: rgb(29, 33, 48);
+  margin-bottom: 32px;
+}
+.cont-1 .info .abzaci-1 .xazi {
+  width: 72px;
+  height: 1px;
+  border: 2px solid rgb(29, 33, 48);
+  margin-left: 110px;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+.cont-1 .info .abzaci-2 {
+  margin-left: 214px;
+}
+.cont-1 .info .abzaci-2 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  color: rgb(29, 33, 48);
+  margin-bottom: 32px;
+}
+.cont-1 .info .abzaci-2 p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+  margin-bottom: 28px;
+}
+.cont-1 .info .abzaci-2 button {
+  background: rgb(112, 193, 116);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  color: white;
+  margin-top: 17px;
+}
+.cont-1 .info .abzaci-2 button:hover {
+  background: rgb(239, 247, 242);
+  color: rgb(29, 33, 48);
+}
+.cont-1 img {
+  width: 480px;
+  height: 578px;
+  margin-top: 96px;
+  border-radius: 12px;
+  margin-right: 110px;
+  margin-left: 96px;
+}
+
+#supporter {
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 64px;
+}
+#supporter .gv {
+  display: flex;
+  margin-top: 73px;
+  margin-bottom: 32px;
+}
+#supporter .gv h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 2px;
+  margin-right: 24px;
+}
+#supporter .gv .xazi-mk {
+  border: 1px solid rgb(229, 229, 229);
+  width: 1487px;
+  height: 1px;
+  margin-top: 6px;
+}
+#supporter .logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+#wwd {
+  background: rgb(239, 247, 242);
+}
+#wwd .s-all {
+  margin-left: 214px;
+  display: flex;
+}
+#wwd .s-all .v-xazi {
+  height: 441px;
+  width: 1px;
+  background: rgb(229, 229, 229);
+  border: 1px solid rgb(229, 229, 229);
+  margin-bottom: 96px;
+}
+#wwd .s-all .details-box .details {
+  margin-left: 24px;
+}
+#wwd .s-all .details-box .details .sat {
+  display: flex;
+}
+#wwd .s-all .details-box .details .sat img {
+  width: 28px;
+  height: 28px;
+  margin: 0px;
+  margin-right: 24px;
+}
+#wwd .s-all .details-box .details .sat h3 {
+  margin-bottom: 14px;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+#wwd .s-all .details-box p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 24px;
+  margin-left: 53px;
+  color: rgb(82, 85, 96);
 }/*# sourceMappingURL=pirveli.css.map */
