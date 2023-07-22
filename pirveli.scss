@@ -236,3 +236,247 @@ header{
                     margin-left: 53px;
                     color: $secondaryText;
             }}}}
+            
+            #project{
+            .cards{
+                display: flex;
+                justify-content: center;
+                margin-left: 110px;
+                margin-right: 110px;
+                margin-top: 65px;
+                margin-bottom:96px;
+                .card_1::before{
+                    width: 100%;
+                    height: 100%;
+                    background-color: black;
+                    opacity: 0.5;
+                }
+                .card_1{
+                 background: url(img/dargva.png);
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 border-radius: 15px;
+                 h3{
+                    font-weight: 700;
+                    font-size: 28px;
+                    line-height: 42px;
+                    color: white;
+                    margin-top:80px;
+                    text-align: left;
+                    margin-left: 48px;
+                    margin-right: 48px;
+                 }
+                 p{
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 26px;
+                    margin-top: 16px;
+                    text-align: left;
+                    margin-left: 48px;
+                    margin-right: 48px;
+                    color: white;
+                 }
+                 button{
+                    @include tetri;
+                    margin-left: 48px;
+                    margin-top:64px;
+                    margin-bottom: 48px;
+                    padding: 16px 32px;
+                    &:hover{
+                        background-color: $greenP;
+                        color: white;
+                    }
+                 }
+                }
+                .card_2{
+                    background: url(img/clean.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-left: 23px;
+                    margin-right: 23px;
+                    border-radius: 15px;
+                    h3{
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 42px;
+                        color: white;
+                        margin-top:80px;
+                        text-align: left;
+                        margin-left: 48px;
+                        margin-right: 48px;
+                     }
+                     p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        margin-top: 16px;
+                        text-align: left;
+                        margin-left: 48px;
+                        margin-right: 48px;
+                        color: white;
+                     }
+                     button{
+                        @include tetri;
+                        margin-left: 48px;
+                        margin-top:64px;
+                        margin-bottom: 48px;
+                        padding: 16px 32px;
+                        &:hover{
+                            background-color: $greenP;
+                            color: white;
+                        }
+                     }
+                }
+                .card_3{
+                    background: url(img/gare.png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    border-radius: 15px;
+                    h3{
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 42px;
+                        color: white;
+                        margin-top:80px;
+                        text-align: left;
+                        margin-left: 48px;
+                        margin-right: 48px;
+                     }
+                     p{
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 26px;
+                        margin-top: 16px;
+                        text-align: left;
+                        margin-left: 48px;
+                        margin-right: 48px;
+                        color: white;
+                     }
+                     button{
+                        @include tetri;
+                        margin-left: 48px;
+                        margin-top:64px;
+                        margin-bottom: 88px;
+                        padding: 16px 32px;
+                        &:hover{
+                            background-color: $greenP;
+                            color: white;
+}}}}}
+
+#donations{
+    background-color: black;
+    display: flex;
+    .content-pr{
+        margin-top:142px;
+        margin-left:110px;
+        padding-bottom: 141px;
+        h1{
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+            margin-bottom: 16px;
+            color: white;
+        }
+        p{
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 26px;
+            color:rgb(177, 177, 177);
+            margin-bottom: 6px;
+        }
+        .pr_1{
+            display: flex;
+            .tr{
+                display: flex;
+                .green{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    background: rgba(190, 243, 192, 1);
+                    margin-right: 8px;
+                    margin-top: 5px;
+                }
+                p{
+                 color: white;
+                 margin-right:24px;
+                }
+            }
+            .cl{
+                display: flex;
+                .purple{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    background: rgba(172, 148, 241, 1);
+                    margin-right: 8px;
+                    margin-top: 5px;
+                }
+                p{
+                 color: white;
+                 margin-right:24px;
+                }
+            }
+            .hp{
+                display: flex;
+                .lightbrown{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    background: rgba(255, 240, 202, 1);
+                    margin-right: 8px;
+                    margin-top: 5px;
+                }
+                p{
+                 color: white;
+                 margin-right:24px;
+                }
+            }
+        }
+        .pr_2{
+            display: flex;
+            .as{
+                display: flex;
+                .yellow{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    background: rgba(255, 240, 202, 1);
+                    margin-right: 8px;
+                    margin-top: 5px;
+                }
+                p{
+                 color: white;
+                 margin-right:24px;
+                }
+            }
+            .ftp{
+                display: flex;
+                .pink{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 4px;
+                    background: rgba(243, 143, 191, 1);
+                    margin-right: 8px;
+                    margin-top: 5px;
+                }
+                p{
+                 color: white;
+                 margin-right:24px;
+                }}}}
+            .burti{
+                position: relative;
+                .chart{
+
+                    margin-top: 96px;
+                    margin-right: 110px;
+                    margin-left: 294px;
+                }
+                .tbc{
+                    position: absolute;
+                    top: 215px;
+                    right: 238px;
+                    width: 120px;
+                }
+            }
+            }
+    
