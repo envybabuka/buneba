@@ -44,6 +44,7 @@ nav .nav-all .nav-links ul li button {
   border-radius: 4px;
   transition: 0.4s;
   cursor: pointer;
+  cursor: pointer;
 }
 nav .nav-all .nav-links ul li button:hover {
   border-radius: 12px 4px;
@@ -83,6 +84,7 @@ header .b-info .b-buttons button {
   border: none;
   border-radius: 4px;
   transition: 0.4s;
+  cursor: pointer;
   cursor: pointer;
   margin-right: 24px;
 }
@@ -144,6 +146,7 @@ header .b-info .b-buttons button:hover {
   border: none;
   border-radius: 4px;
   transition: 0.4s;
+  cursor: pointer;
   color: white;
   margin-top: 17px;
 }
@@ -277,6 +280,7 @@ header .b-info .b-buttons button:hover {
   border: none;
   border-radius: 4px;
   transition: 0.4s;
+  cursor: pointer;
   margin-left: 48px;
   margin-top: 64px;
   margin-bottom: 48px;
@@ -322,6 +326,7 @@ header .b-info .b-buttons button:hover {
   border: none;
   border-radius: 4px;
   transition: 0.4s;
+  cursor: pointer;
   margin-left: 48px;
   margin-top: 64px;
   margin-bottom: 48px;
@@ -365,6 +370,7 @@ header .b-info .b-buttons button:hover {
   border: none;
   border-radius: 4px;
   transition: 0.4s;
+  cursor: pointer;
   margin-left: 48px;
   margin-top: 64px;
   margin-bottom: 88px;
@@ -492,4 +498,86 @@ header .b-info .b-buttons button:hover {
   top: 215px;
   right: 238px;
   width: 120px;
+}
+
+#join .back {
+  background: url(img/wind.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  border-radius: 12px;
+}
+#join .back h1 {
+  text-align: center;
+  padding-top: 93px;
+  color: white;
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+#join .back .join-donate {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 92px;
+}
+#join .back .join-donate .jn {
+  background: rgb(112, 193, 116);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-right: 16px;
+}
+#join .back .join-donate .jn:hover {
+  background-color: white;
+  color: black;
+}
+#join .back .join-donate .don {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  cursor: pointer;
+  padding: 16px 32px;
+  transition: 0.4s;
+  margin-left: 16px;
+}
+#join .back .join-donate .don:hover {
+  background-color: rgb(112, 193, 116);
+  color: white;
+}
+
+#news .satauri_1 {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 48px;
+}
+#news .satauri_1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  margin-right: 24px;
+  display: inline;
+}
+#news .satauri_1 .xazi-vert {
+  margin-top: 30px;
+  width: 1170px;
+  height: 1px;
+  background: rgb(229, 229, 229);
 }/*# sourceMappingURL=pirveli.css.map */

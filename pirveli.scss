@@ -21,6 +21,7 @@ $border: rgba(229, 229, 229, 1);
     border: none;
     border-radius: 4px;
     transition: 0.4s;
+    cursor: pointer;
 }
 @mixin mwvane(){
     background: rgba(112, 193, 116, 1);
@@ -30,6 +31,7 @@ $border: rgba(229, 229, 229, 1);
     border: none;
     border-radius: 4px;
     transition: 0.4s;
+    cursor: pointer;
 }
 @mixin tetri(){
     background: rgba(255, 255, 255, 1);
@@ -39,6 +41,7 @@ $border: rgba(229, 229, 229, 1);
     border: none;
     border-radius: 4px;
     transition: 0.4s;
+    cursor: pointer;
 }
 nav{
     .nav-all{
@@ -476,7 +479,78 @@ header{
                     top: 215px;
                     right: 238px;
                     width: 120px;
-                }
+}}}
+
+#join{
+    .back{
+        background: url(img/wind.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 96px;
+        margin-bottom: 96px;
+        border-radius: 12px;
+        h1{
+            text-align: center;
+            padding-top:93px;
+            color: white;
+            margin-bottom: 32px;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        .join-donate{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 92px;
+            .jn{
+            @include mwvane;
+            padding: 16px 32px;
+            color: white;
+            cursor: pointer;
+            transition: 0.4s;
+            margin-right: 16px;
+            &:hover{
+                background-color: white;
+                color: black;               
             }
             }
+            .don{
+                @include tetri;
+                cursor: pointer;
+                padding: 16px 32px;
+                transition: 0.4s;
+                margin-left: 16px;
+                &:hover{
+                   background-color: $greenP;
+                   color: white;
+}}}}}
+
+#news{
+    .satauri_1{
+        display: flex;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 48px;
+        h1{
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 56px;
+            margin-right: 24px;
+            display: inline;
+        }
+        .xazi-vert{
+            margin-top: 30px;
+            width: 1170px;
+            height: 1px;
+            background: rgba(229, 229, 229, 1);
+        }
+    }
+    .kartebi{
+        
+    }
+}
+
+
     
