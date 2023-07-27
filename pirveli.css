@@ -122,6 +122,7 @@ header .b-info .b-buttons button:hover {
 }
 .cont-1 .info .abzaci-2 {
   margin-left: 214px;
+  display: inline-block;
 }
 .cont-1 .info .abzaci-2 h1 {
   font-size: 48px;
@@ -580,4 +581,13 @@ header .b-info .b-buttons button:hover {
   width: 1170px;
   height: 1px;
   background: rgb(229, 229, 229);
+}
+.s-all-img {
+  display: flex;
+}
+.s-all-img .dzagli_ {
+  margin-left: 96px;
+}
+.s-all-img .dzagli_ .dzagli_img {
+  margin: 0px;
 }/*# sourceMappingURL=pirveli.css.map */

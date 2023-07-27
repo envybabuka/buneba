@@ -140,6 +140,7 @@ header{
             }}
         .abzaci-2{
             margin-left: 214px;
+            display: inline-block;
             h1{
                     font-size: 48px;
                     font-weight: 700;
@@ -202,10 +203,11 @@ header{
 
     #wwd{
         background: $greenT;
+
         .s-all{
             margin-left: 214px;
             display: flex;
-                            
+
             .v-xazi{
                 height: 441px;
                 width: 1px;
@@ -553,4 +555,14 @@ header{
 }
 
 
+            .s-all-img{
+            display: flex;
+            .dzagli_{
+                margin-left: 96px;
+                .dzagli_img{
+                    margin: 0px;
     
+                }
+            }
+
+        }
