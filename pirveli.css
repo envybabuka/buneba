@@ -195,6 +195,9 @@ header .b-info .b-buttons button:hover {
 #wwd {
   background: rgb(239, 247, 242);
 }
+#wwd .yvela-1 {
+  display: flex;
+}
 #wwd .s-all {
   margin-left: 214px;
   display: flex;
@@ -231,6 +234,13 @@ header .b-info .b-buttons button:hover {
   margin-bottom: 24px;
   margin-left: 53px;
   color: rgb(82, 85, 96);
+}
+#wwd .dzagli_ {
+  margin-top: 210px;
+  margin-left: 96px;
+}
+#wwd .dzagli_ .dzagli_img {
+  margin-right: 110px;
 }
 
 #project .cards {
@@ -582,12 +592,46 @@ header .b-info .b-buttons button:hover {
   height: 1px;
   background: rgb(229, 229, 229);
 }
-.s-all-img {
+#news .kartebi {
   display: flex;
+  justify-content: space-between;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 96px;
 }
-.s-all-img .dzagli_ {
-  margin-left: 96px;
+#news .kartebi .karti_ .deplini {
+  width: 302px;
+  height: 192px;
+  border-radius: 8px;
 }
-.s-all-img .dzagli_ .dzagli_img {
-  margin: 0px;
+#news .kartebi .karti_ h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#news .kartebi .karti_ p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+#events .satauri_1 {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 48px;
+}
+#events .satauri_1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  margin-right: 24px;
+  display: inline;
+}
+#events .satauri_1 .xazi-vert {
+  margin-top: 30px;
+  width: 1170px;
+  height: 1px;
+  background: rgb(229, 229, 229);
 }/*# sourceMappingURL=pirveli.css.map */
