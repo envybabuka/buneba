@@ -604,5 +604,78 @@ header{
             background: rgba(229, 229, 229, 1);
         }
     }
+    .ori-mwvane{
+        display: flex;
+        justify-content: center;
+        .meore-mwvane{
+            margin-right: 110px;
+        }
+        .pirveli-mwvane{
+            background-color: $greenS;
+            display: flex;
+            margin-right:24px;
+            border-radius: 8px;
+            .dge{
+                margin-top: 32px;
+                margin-left:40px;
+                margin-right: 24px;
+                h2{
+                    font-weight: 600;
+                    font-size: 48px;
+                    line-height: 57px;
+                    color: $primaryText;
+
+                }
+                h4{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 18px;
+                    letter-spacing: 2px;
+                }
+            }
+            .det{
+                .next-event{
+                    display: flex;
+                    margin-top:40px;
+                    margin-bottom:12px;
+                    p{
+                       color: $primaryText;
+                       font-size: 18px;
+                       line-height: 18px;
+                       letter-spacing: 2px;
+                       font-weight: 600;
+                    }
+                    h2{
+                        font-weight: 700;
+                        font-size: 28px;
+                        line-height: 42px;
+                        color: $primaryText;
+                    }
+                    .xazi-event{
+                        width: 44px;
+                        height: 2px;
+                        background-color: $primaryText;
+                        margin-left: 23px;
+                        border: 2px;
+                        margin-top: 7px;
+                    }
+                }
+            }
+            .isari{
+                button{
+                    width: 56px;
+                    height: 56px;
+                    border-radius:50%;
+                    background-color: white;
+                    margin-left: 74px;
+                    border: none;
+                    margin-top: 64px;
+                    margin-right: 48px;
+                    margin-bottom: 71px;
+                }
+            }
+        }
+    }
+
 }
 
