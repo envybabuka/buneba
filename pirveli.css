@@ -631,22 +631,25 @@ header .b-info .b-buttons button:hover {
 }
 #events .satauri_1 .xazi-vert {
   margin-top: 30px;
-  width: 1170px;
+  width: 1190px;
   height: 1px;
   background: rgb(229, 229, 229);
 }
 #events .ori-mwvane {
   display: flex;
   justify-content: center;
+  margin-left: 110px;
+  margin-right: 60px;
 }
 #events .ori-mwvane .meore-mwvane {
-  margin-right: 110px;
+  margin-left: 24px;
 }
 #events .ori-mwvane .pirveli-mwvane {
   background-color: rgb(190, 243, 192);
   display: flex;
-  margin-right: 24px;
+  margin-right: 48px;
   border-radius: 8px;
+  margin-bottom: 96px;
 }
 #events .ori-mwvane .pirveli-mwvane .dge {
   margin-top: 32px;
@@ -654,9 +657,9 @@ header .b-info .b-buttons button:hover {
   margin-right: 24px;
 }
 #events .ori-mwvane .pirveli-mwvane .dge h2 {
-  font-weight: 600;
+  font-weight: 800;
   font-size: 48px;
-  line-height: 57px;
+  line-height: 67px;
   color: rgb(29, 33, 48);
 }
 #events .ori-mwvane .pirveli-mwvane .dge h4 {
@@ -678,7 +681,7 @@ header .b-info .b-buttons button:hover {
   font-weight: 600;
 }
 #events .ori-mwvane .pirveli-mwvane .det .next-event h2 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 28px;
   line-height: 42px;
   color: rgb(29, 33, 48);
@@ -701,4 +704,100 @@ header .b-info .b-buttons button:hover {
   margin-top: 64px;
   margin-right: 48px;
   margin-bottom: 71px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#events .ori-mwvane .pirveli-mwvane .isari button:hover {
+  background-color: rgb(112, 193, 116);
+  border-radius: 0px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+}
+footer .yvela-seqcia {
+  display: flex;
+  padding-top: 97px;
+  margin-left: 110px;
+}
+footer .yvela-seqcia .footer-logo img {
+  width: 120px;
+  margin-right: 117px;
+}
+footer .yvela-seqcia .seqcia_f_1 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_2 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_3 {
+  margin-right: 147px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_4 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 110px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input {
+  width: 536px;
+  height: 64px;
+  margin-top: 32px;
+  background-color: black;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  color: white;
+  margin-right: 0px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 22px 32px;
+  margin-bottom: 96px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button:hover {
+  cursor: pointer;
+  background-color: rgb(112, 193, 116);
+  color: white;
 }/*# sourceMappingURL=pirveli.css.map */

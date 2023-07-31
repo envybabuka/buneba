@@ -599,32 +599,35 @@ header{
         }
         .xazi-vert{
             margin-top: 30px;
-            width: 1170px;
+            width: 1190px;
             height: 1px;
             background: rgba(229, 229, 229, 1);
         }
     }
     .ori-mwvane{
         display: flex;
-        justify-content: center;
+        justify-content:center;
+         margin-left: 110px;
+         margin-right: 60px;
         .meore-mwvane{
-            margin-right: 110px;
+            // margin-right: 110px;
+            margin-left: 24px;
         }
         .pirveli-mwvane{
             background-color: $greenS;
             display: flex;
-            margin-right:24px;
+            margin-right:48px;
             border-radius: 8px;
+            margin-bottom:96px;
             .dge{
                 margin-top: 32px;
                 margin-left:40px;
                 margin-right: 24px;
                 h2{
-                    font-weight: 600;
+                    font-weight: 800;
                     font-size: 48px;
-                    line-height: 57px;
+                    line-height: 67px;
                     color: $primaryText;
-
                 }
                 h4{
                     font-weight: 600;
@@ -646,7 +649,7 @@ header{
                        font-weight: 600;
                     }
                     h2{
-                        font-weight: 700;
+                        font-weight: 800;
                         font-size: 28px;
                         line-height: 42px;
                         color: $primaryText;
@@ -658,9 +661,7 @@ header{
                         margin-left: 23px;
                         border: 2px;
                         margin-top: 7px;
-                    }
-                }
-            }
+                    }}}
             .isari{
                 button{
                     width: 56px;
@@ -672,10 +673,108 @@ header{
                     margin-top: 64px;
                     margin-right: 48px;
                     margin-bottom: 71px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover{
+                        background-color: $greenP;
+                        border-radius: 0px;
+                    }
+}}}}}
+
+footer{
+    background-color: black;
+    color: white;
+    .yvela-seqcia{
+        display: flex;
+        padding-top:97px;
+        margin-left: 110px;
+        .footer-logo img{
+            width: 120px;
+            margin-right:117px;
+        }
+      .seqcia_f_1{
+        margin-right:88px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                }
+                b{
+                    color: white;
                 }
             }
         }
-    }
 
+      }
+      .seqcia_f_2{
+        margin-right: 88px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                }
+                b{
+                    color: white;
+                }
+            }
+        }
+      }
+      .seqcia_f_3{
+        margin-right:147px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                }
+                b{
+                    color: white;
+                }
+            }
+        }
+      }
+      .seqcia_f_4{
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-right: 110px;
+        }
+        .b-inp{
+            input{
+                width: 536px;
+                height: 64px;
+                margin-top: 32px;
+                background-color: black;
+                border: 1px solid rgba(235, 240, 249, 0.3);
+                color: white;
+                margin-right: 0px;
+            }
+            input:focus{
+
+            }
+            button{
+                @include tetri;
+                padding: 22px 32px;
+                margin-bottom: 96px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: $greenP;
+                    color: white;
+                }
+            }
+        }
+      }
+    }
 }
 
