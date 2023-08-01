@@ -200,6 +200,13 @@ header{
             justify-content:space-between;
            }
     }
+    @media (max-width:1500px){
+        .xazi-mk{
+            width: 100%;
+            width: 1119px !important;
+        }
+    }
+
 
     #wwd{
         background: $greenT;
@@ -493,6 +500,11 @@ header{
                     right: 238px;
                     width: 120px;
 }}}
+@media(max-width:1500px){
+    .chart{
+        margin-left: 194px !important;
+    }
+}
 
 #join{
     .back{
@@ -583,6 +595,16 @@ header{
                 line-height: 26px;
                 text-align: left;
 }}}}
+@media(max-width:1500px){
+    .xazi-vert{
+        width: 825px !important;
+    }
+    .satauri_1{
+        h1{
+            display: inline-block !important;
+        }
+    }
+}
 // Events----------------------------------------------
 #events{
     .satauri_1{
@@ -606,19 +628,20 @@ header{
     }
     .ori-mwvane{
         display: flex;
+        margin-right: 90px;
+        margin-left: 110px;
         justify-content:center;
-         margin-left: 110px;
-         margin-right: 60px;
         .meore-mwvane{
-            // margin-right: 110px;
             margin-left: 24px;
+            width: 808px !important;
         }
         .pirveli-mwvane{
             background-color: $greenS;
             display: flex;
-            margin-right:48px;
+            margin-right:24px;
             border-radius: 8px;
             margin-bottom:96px;
+            width:808px !important;
             .dge{
                 margin-top: 32px;
                 margin-left:40px;
@@ -759,9 +782,10 @@ footer{
                 border: 1px solid rgba(235, 240, 249, 0.3);
                 color: white;
                 margin-right: 0px;
+                font-size: 18px;
             }
             input:focus{
-
+                border: none;
             }
             button{
                 @include tetri;
@@ -771,10 +795,5 @@ footer{
                     cursor: pointer;
                     background-color: $greenP;
                     color: white;
-                }
-            }
-        }
-      }
-    }
-}
+}}}}}}
 

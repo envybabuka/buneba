@@ -192,6 +192,12 @@ header .b-info .b-buttons button:hover {
   justify-content: space-between;
 }
 
+@media (max-width: 1500px) {
+  .xazi-mk {
+    width: 100%;
+    width: 1119px !important;
+  }
+}
 #wwd {
   background: rgb(239, 247, 242);
 }
@@ -511,6 +517,11 @@ header .b-info .b-buttons button:hover {
   width: 120px;
 }
 
+@media (max-width: 1500px) {
+  .chart {
+    margin-left: 194px !important;
+  }
+}
 #join .back {
   background: url(img/wind.png);
   background-repeat: no-repeat;
@@ -616,6 +627,14 @@ header .b-info .b-buttons button:hover {
   text-align: left;
 }
 
+@media (max-width: 1500px) {
+  .xazi-vert {
+    width: 825px !important;
+  }
+  .satauri_1 h1 {
+    display: inline-block !important;
+  }
+}
 #events .satauri_1 {
   display: flex;
   margin-left: 110px;
@@ -637,19 +656,21 @@ header .b-info .b-buttons button:hover {
 }
 #events .ori-mwvane {
   display: flex;
-  justify-content: center;
+  margin-right: 90px;
   margin-left: 110px;
-  margin-right: 60px;
+  justify-content: center;
 }
 #events .ori-mwvane .meore-mwvane {
   margin-left: 24px;
+  width: 808px !important;
 }
 #events .ori-mwvane .pirveli-mwvane {
   background-color: rgb(190, 243, 192);
   display: flex;
-  margin-right: 48px;
+  margin-right: 24px;
   border-radius: 8px;
   margin-bottom: 96px;
+  width: 808px !important;
 }
 #events .ori-mwvane .pirveli-mwvane .dge {
   margin-top: 32px;
@@ -783,6 +804,10 @@ footer .yvela-seqcia .seqcia_f_4 .b-inp input {
   border: 1px solid rgba(235, 240, 249, 0.3);
   color: white;
   margin-right: 0px;
+  font-size: 18px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input:focus {
+  border: none;
 }
 footer .yvela-seqcia .seqcia_f_4 .b-inp button {
   background: rgb(255, 255, 255);
