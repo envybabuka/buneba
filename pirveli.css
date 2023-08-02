@@ -51,6 +51,12 @@ nav .nav-all .nav-links ul li button:hover {
   background-color: rgb(112, 193, 116);
 }
 
+@media (max-width: 1024px) {
+  .logo-div img {
+    margin-left: 20px !important;
+    margin-right: 40px;
+  }
+}
 header {
   background: url(img/header.jpg);
   background-repeat: no-repeat;
@@ -92,7 +98,6 @@ header .b-info .b-buttons button:hover {
   border-radius: 4px 12px;
   background-color: rgb(190, 243, 192);
 }
-
 .cont-1 {
   display: flex;
 }
@@ -164,6 +169,14 @@ header .b-info .b-buttons button:hover {
   margin-left: 96px;
 }
 
+@media (max-width: 1024px) {
+  .xazi {
+    margin-left: 0px !important;
+  }
+  .abzaci-2 {
+    margin-left: 110px !important;
+  }
+}
 #supporter {
   margin-left: 110px;
   margin-right: 110px;
@@ -196,6 +209,14 @@ header .b-info .b-buttons button:hover {
   .xazi-mk {
     width: 100%;
     width: 1119px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .gv h3 {
+    margin-right: 0px !important;
+  }
+  .gv .logos {
+    flex-wrap: wrap !important;
   }
 }
 #wwd {
@@ -249,6 +270,17 @@ header .b-info .b-buttons button:hover {
   margin-right: 110px;
 }
 
+@media (max-width: 1024px) {
+  .dzagli_ {
+    display: none;
+  }
+  .dzagli_img {
+    display: none;
+  }
+  .s-all {
+    margin-left: 110px !important;
+  }
+}
 #project .cards {
   display: flex;
   justify-content: center;
@@ -268,6 +300,7 @@ header .b-info .b-buttons button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
+  width: 521px;
 }
 #project .cards .card_1 h3 {
   font-weight: 700;
@@ -314,6 +347,7 @@ header .b-info .b-buttons button:hover {
   margin-left: 23px;
   margin-right: 23px;
   border-radius: 15px;
+  width: 521px;
 }
 #project .cards .card_2 h3 {
   font-weight: 700;
@@ -358,6 +392,7 @@ header .b-info .b-buttons button:hover {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 15px;
+  width: 521px;
 }
 #project .cards .card_3 h3 {
   font-weight: 700;
@@ -398,6 +433,22 @@ header .b-info .b-buttons button:hover {
   color: white;
 }
 
+@media (max-width: 1024px) {
+  .cards {
+    flex-wrap: wrap;
+    justify-content: space-around !important;
+  }
+  .card_1 {
+    width: 297px !important;
+  }
+  .card_2 {
+    width: 297px !important;
+  }
+  .card_3 {
+    width: 297px !important;
+    margin-top: 20px;
+  }
+}
 #donations {
   background-color: black;
   display: flex;
@@ -522,6 +573,25 @@ header .b-info .b-buttons button:hover {
     margin-left: 194px !important;
   }
 }
+@media (max-width: 1024px) {
+  .chart {
+    margin-right: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 20px !important;
+  }
+  .tbc {
+    top: 140px !important;
+    right: 140px !important;
+  }
+  #donations {
+    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+  }
+  .content-pr {
+    padding-bottom: 20px !important;
+  }
+}
 #join .back {
   background: url(img/wind.png);
   background-repeat: no-repeat;
@@ -629,10 +699,18 @@ header .b-info .b-buttons button:hover {
 
 @media (max-width: 1500px) {
   .xazi-vert {
-    width: 825px !important;
+    width: 809px !important;
   }
   .satauri_1 h1 {
     display: inline-block !important;
+  }
+}
+@media (max-width: 1500px) and (max-width: 1024px) {
+  .kartebi {
+    flex-wrap: wrap;
+  }
+  .karti_ {
+    margin-bottom: 25px;
   }
 }
 #events .satauri_1 {
@@ -662,7 +740,7 @@ header .b-info .b-buttons button:hover {
 }
 #events .ori-mwvane .meore-mwvane {
   margin-left: 24px;
-  width: 808px !important;
+  width: 808px;
 }
 #events .ori-mwvane .pirveli-mwvane {
   background-color: rgb(190, 243, 192);
@@ -670,7 +748,7 @@ header .b-info .b-buttons button:hover {
   margin-right: 24px;
   border-radius: 8px;
   margin-bottom: 96px;
-  width: 808px !important;
+  width: 808px;
 }
 #events .ori-mwvane .pirveli-mwvane .dge {
   margin-top: 32px;
@@ -733,6 +811,26 @@ header .b-info .b-buttons button:hover {
   border-radius: 0px;
 }
 
+@media (max-width: 1500px) {
+  .pirveli-mwvane {
+    width: 608px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .ori-mwvane {
+    flex-wrap: wrap;
+  }
+  .pirveli-mwvane {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .meore-mwvane {
+    margin-right: 0px !important;
+  }
+  .resp-but {
+    margin-right: 20px !important;
+  }
+}
 footer {
   background-color: black;
   color: white;
@@ -770,6 +868,7 @@ footer .yvela-seqcia .seqcia_f_2 ul li .yvela-op {
   color: white;
   line-height: 22px;
   opacity: 78%;
+  display: inline;
 }
 footer .yvela-seqcia .seqcia_f_2 ul li b {
   color: white;
@@ -819,10 +918,25 @@ footer .yvela-seqcia .seqcia_f_4 .b-inp button {
   transition: 0.4s;
   cursor: pointer;
   padding: 22px 32px;
-  margin-bottom: 96px;
+  margin-bottom: 98px;
 }
 footer .yvela-seqcia .seqcia_f_4 .b-inp button:hover {
   cursor: pointer;
   background-color: rgb(112, 193, 116);
   color: white;
+}
+
+@media (max-width: 1500px) {
+  .b-inp input {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1024px) {
+  .yvela-seqcia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seqcia_f_4 {
+    margin-top: 20px;
+  }
 }/*# sourceMappingURL=pirveli.css.map */

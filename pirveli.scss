@@ -79,7 +79,16 @@ nav{
                         &:hover{
                             border-radius: 12px 4px;
                             background-color: $greenP;
-                        }}}}}}}
+}}}}}}}
+@media(max-width:1024px){
+    .logo-div{
+        img{
+            margin-left: 20px !important;
+            margin-right: 40px;
+        }
+    }
+}
+
 
 header{
     background: url(img/header.jpg);
@@ -111,7 +120,10 @@ header{
                 &:hover{
                     border-radius: 4px 12px;
                     background-color: $greenS;
-                }}}}
+}}}}
+@media(max-width:1024px){
+    
+}
 }
 .cont-1{
     display: flex;
@@ -173,6 +185,14 @@ header{
         margin-right: 110px;
         margin-left: 96px;
     }}
+    @media(max-width:1024px){
+        .xazi{
+            margin-left: 0px !important;
+        }
+        .abzaci-2{
+            margin-left: 110px  !important;
+        }
+    }
     #supporter{
         margin-left: 110px;
         margin-right:110px;
@@ -204,6 +224,16 @@ header{
         .xazi-mk{
             width: 100%;
             width: 1119px !important;
+        }
+    }
+    @media(max-width:1024px){
+        .gv{
+            h3{
+                margin-right: 0px !important;
+            }
+            .logos{
+                flex-wrap: wrap !important;
+            }
         }
     }
 
@@ -258,6 +288,17 @@ header{
             }
         }
         }
+        @media(max-width:1024px){
+            .dzagli_{
+                display: none;
+            }
+            .dzagli_img{
+                display: none;
+            }
+            .s-all{
+                margin-left: 110px !important;
+            }
+        }
 
             
             #project{
@@ -279,6 +320,7 @@ header{
                  background-repeat: no-repeat;
                  background-size: cover;
                  border-radius: 15px;
+                 width: 521px;
                  h3{
                     font-weight: 700;
                     font-size: 28px;
@@ -318,6 +360,7 @@ header{
                     margin-left: 23px;
                     margin-right: 23px;
                     border-radius: 15px;
+                    width: 521px;
                     h3{
                         font-weight: 700;
                         font-size: 28px;
@@ -355,6 +398,7 @@ header{
                     background-repeat: no-repeat;
                     background-size: cover;
                     border-radius: 15px;
+                    width: 521px;
                     h3{
                         font-weight: 700;
                         font-size: 28px;
@@ -385,6 +429,26 @@ header{
                             background-color: $greenP;
                             color: white;
 }}}}}
+@media(max-width:1024px){
+    .cards{
+        flex-wrap: wrap;
+        justify-content: space-around !important;
+    }
+
+    .card_1{
+        width: 297px !important;
+        h3{
+        }
+    }
+    .card_2{
+        width: 297px !important;
+    }
+    .card_3{
+        width: 297px !important;
+        margin-top: 20px;
+    }
+}
+
 
 #donations{
     background-color: black;
@@ -505,6 +569,25 @@ header{
         margin-left: 194px !important;
     }
 }
+@media(max-width:1024px){
+.chart{
+    margin-right: 10px !important;
+    margin-left: 0px !important;
+    margin-top: 20px !important;
+}
+.tbc{
+    top: 140px !important;
+    right: 140px !important;
+}
+#donations{
+    flex-wrap: wrap !important;
+    display: flex;
+    justify-content: center;
+}
+.content-pr{
+    padding-bottom: 20px !important;
+}
+}
 
 #join{
     .back{
@@ -597,11 +680,19 @@ header{
 }}}}
 @media(max-width:1500px){
     .xazi-vert{
-        width: 825px !important;
+        width: 809px !important;
     }
     .satauri_1{
         h1{
             display: inline-block !important;
+        }
+    }
+    @media(max-width:1024px){
+        .kartebi{
+            flex-wrap: wrap;
+        }
+        .karti_{
+            margin-bottom: 25px;
         }
     }
 }
@@ -633,7 +724,7 @@ header{
         justify-content:center;
         .meore-mwvane{
             margin-left: 24px;
-            width: 808px !important;
+            width: 808px;
         }
         .pirveli-mwvane{
             background-color: $greenS;
@@ -641,7 +732,7 @@ header{
             margin-right:24px;
             border-radius: 8px;
             margin-bottom:96px;
-            width:808px !important;
+            width:808px ;
             .dge{
                 margin-top: 32px;
                 margin-left:40px;
@@ -703,6 +794,26 @@ header{
                         border-radius: 0px;
                     }
 }}}}}
+@media(max-width:1500px){
+    .pirveli-mwvane{
+        width: 608px !important;
+    }
+}
+@media(max-width:1024px){
+    .ori-mwvane{
+        flex-wrap: wrap;
+    }
+    .pirveli-mwvane{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .meore-mwvane{
+        margin-right: 0px !important;
+    }
+    .resp-but{
+        margin-right: 20px !important;
+    }
+}
 
 footer{
     background-color: black;
@@ -741,6 +852,7 @@ footer{
                     color: white;
                     line-height: 22px;
                     opacity: 78%;
+                    display: inline;
                 }
                 b{
                     color: white;
@@ -790,10 +902,25 @@ footer{
             button{
                 @include tetri;
                 padding: 22px 32px;
-                margin-bottom: 96px;
+                margin-bottom: 98px;
                 &:hover{
                     cursor: pointer;
                     background-color: $greenP;
                     color: white;
 }}}}}}
-
+@media(max-width:1500px){
+    .b-inp{
+        input{
+            width: 300px !important;
+        }
+    }
+}
+@media(max-width:1024px){
+    .yvela-seqcia{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seqcia_f_4{
+        margin-top: 20px;
+    }
+}
