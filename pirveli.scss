@@ -63,6 +63,9 @@ nav{
                 }
                 display: flex;
                 li{
+                    i{
+                        display: none;
+                    }
                     margin-top: 28px;
                     margin-bottom: 20px;
                     a{
@@ -80,14 +83,33 @@ nav{
                             border-radius: 12px 4px;
                             background-color: $greenP;
 }}}}}}}
-@media(max-width:1024px){
+@media(max-width:1444px){
     .logo-div{
         img{
             margin-left: 20px !important;
-            margin-right: 40px;
-        }
+            margin-right: 40px !important;
+}}
+.but{
+    button{
+        margin-right: 10px !important;
     }
 }
+}
+@media(max-width:1000px){
+    .nav-links{
+        ul{
+            li{
+                a{
+                    display: none !important;
+                }
+                button{
+                    display: none !important;
+                }
+                i{
+                    display: flex !important;
+                    font-size: 25px;
+                    margin-right: 20px;
+                }}}}}
 
 
 header{
@@ -121,8 +143,24 @@ header{
                     border-radius: 4px 12px;
                     background-color: $greenS;
 }}}}
-@media(max-width:1024px){
-    
+@media(max-width:650px){
+    .b-info{
+        margin-left: 0px;
+        padding-top: 40px;
+        text-align: center
+    }
+    .b-buttons{
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(max-width:480px){
+    .b-info{
+        h1{
+            font-size:55px !important;
+            line-height: 82px!important ;
+        }
+    }
 }
 }
 .cont-1{
@@ -185,7 +223,7 @@ header{
         margin-right: 110px;
         margin-left: 96px;
     }}
-    @media(max-width:1024px){
+    @media(max-width:1444px){
         .xazi{
             margin-left: 0px !important;
         }
@@ -193,6 +231,16 @@ header{
             margin-left: 110px  !important;
         }
     }
+    @media(max-width:920px){
+        .xel{
+            display: none !important;
+        }
+    }
+     @media(max-width:650px){
+        .abzaci-2{
+            margin-left: 10px  !important;
+        }
+     }
     #supporter{
         margin-left: 110px;
         margin-right:110px;
@@ -226,7 +274,7 @@ header{
             width: 1119px !important;
         }
     }
-    @media(max-width:1024px){
+    @media(max-width:1444px){
         .gv{
             h3{
                 margin-right: 0px !important;
@@ -236,6 +284,22 @@ header{
             }
         }
     }
+    @media(max-width:920px){
+        .logos{
+            flex-wrap: wrap !important;
+        }
+    }
+     @media(max-width:650px){
+        #supporter{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .logos{
+            img{
+                margin-top: 10px;
+            }
+        }
+     }
 
 
     #wwd{
@@ -288,7 +352,7 @@ header{
             }
         }
         }
-        @media(max-width:1024px){
+        @media(max-width:1444px){
             .dzagli_{
                 display: none;
             }
@@ -297,6 +361,11 @@ header{
             }
             .s-all{
                 margin-left: 110px !important;
+            }
+        }
+        @media(max-width:650px){
+            .s-all{
+                margin-left: 10px !important; 
             }
         }
 
@@ -429,7 +498,7 @@ header{
                             background-color: $greenP;
                             color: white;
 }}}}}
-@media(max-width:1024px){
+@media(max-width:1444px){
     .cards{
         flex-wrap: wrap;
         justify-content: space-around !important;
@@ -446,6 +515,11 @@ header{
     .card_3{
         width: 297px !important;
         margin-top: 20px;
+    }
+}
+@media(max-width:920px){
+    .card_1{
+        margin-bottom: 20px !important;
     }
 }
 
@@ -569,7 +643,7 @@ header{
         margin-left: 194px !important;
     }
 }
-@media(max-width:1024px){
+@media(max-width:1444px){
 .chart{
     margin-right: 10px !important;
     margin-left: 0px !important;
@@ -588,6 +662,26 @@ header{
     padding-bottom: 20px !important;
 }
 }
+@media(max-width:800px){
+    .content-pr{
+        display: inline !important;
+        margin-left: 10px !important;
+        h1{
+            display: inline !important;
+        }
+        p{
+            margin-top: 10px !important;
+        }
+    }
+}
+ @media(max-width:650px){
+    .pr_1{
+     flex-wrap: wrap;   
+    }
+    .pr_1{
+        flex-wrap: wrap;
+    }
+ }
 
 #join{
     .back{
@@ -634,6 +728,22 @@ header{
                    background-color: $greenP;
                    color: white;
 }}}}}
+@media(max-width:650px){
+    .join-donate{
+        // display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        button{
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+            margin-top: 10px !important;
+        }
+    }
+    .back{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+}
 
 #news{
     .satauri_1{
@@ -646,7 +756,6 @@ header{
             font-weight: 500;
             line-height: 56px;
             margin-right: 24px;
-            display: inline;
         }
         .xazi-vert{
             margin-top: 30px;
@@ -687,12 +796,35 @@ header{
             display: inline-block !important;
         }
     }
-    @media(max-width:1024px){
+    @media(max-width:1444px){
         .kartebi{
             flex-wrap: wrap;
         }
         .karti_{
             margin-bottom: 25px;
+        }
+    }
+}
+@media(max-width:920px){
+ .kartebi{
+    justify-content: center!important;
+    margin:0px !important;
+ }
+ .karti_{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+ }
+}
+@media(max-width:480px){
+    .satauri_1{
+        h1{
+            text-align: center  !important;
+            font-size: 25px  !important;
+            margin: 0px !important;
+            margin-left: 50px !important;
+        }
+        .xazi-vert{
+            display: none !important;
         }
     }
 }
@@ -799,7 +931,7 @@ header{
         width: 608px !important;
     }
 }
-@media(max-width:1024px){
+@media(max-width:1444px){
     .ori-mwvane{
         flex-wrap: wrap;
     }
@@ -812,6 +944,27 @@ header{
     }
     .resp-but{
         margin-right: 20px !important;
+    }
+}
+@media(max-width:920px){
+    .ori-mwvane{
+        margin: 0px !important;
+    }
+}
+@media(max-width:650px){
+    .isari{
+        button{
+            margin-right: 10px !important;
+            margin-left: 10px !important;
+        }
+    }
+    .satauri_1{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+    .xazi-vert{
+        display: none !important;
     }
 }
 
@@ -915,12 +1068,45 @@ footer{
         }
     }
 }
-@media(max-width:1024px){
+@media(max-width:1444px){
     .yvela-seqcia{
         flex-wrap: wrap;
         justify-content: center;
     }
     .seqcia_f_4{
         margin-top: 20px;
+    }
+}
+@media(max-width:920px){
+    .yvela-seqcia{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 80px !important;
+        display: none !important;
+        img{
+            margin-right: 80px !important;
+        }
+    }
+}
+@media(max-width:650px){
+    .xazi{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .seqcia_f_4{
+        h1{
+            margin-right: 10px !important;
+        }
+    }
+    .xazi-event{
+        display: none;
+    }
+    .dge{
+        margin-left: 5px !important;
     }
 }
