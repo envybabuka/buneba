@@ -130,7 +130,7 @@ header .b-info .b-buttons button:hover {
 }
 @media (max-width: 480px) {
   header .b-info h1 {
-    font-size: 50px !important;
+    font-size: 48px !important;
     line-height: 82px !important;
   }
 }
@@ -774,6 +774,9 @@ header .b-info .b-buttons button:hover {
   .back {
     margin-left: 10px !important;
     margin-right: 10px !important;
+  }
+  .back h1 {
+    font-size: 43px !important;
   }
 }
 #news .satauri_1 {
