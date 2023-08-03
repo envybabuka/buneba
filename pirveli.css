@@ -130,7 +130,7 @@ header .b-info .b-buttons button:hover {
 }
 @media (max-width: 480px) {
   header .b-info h1 {
-    font-size: 55px !important;
+    font-size: 50px !important;
     line-height: 82px !important;
   }
 }
@@ -601,7 +601,7 @@ header .b-info .b-buttons button:hover {
   width: 16px;
   height: 16px;
   border-radius: 4px;
-  background: rgb(255, 240, 202);
+  background: rgb(248, 217, 139);
   margin-right: 8px;
   margin-top: 5px;
 }
@@ -681,6 +681,23 @@ header .b-info .b-buttons button:hover {
   }
   .pr_1 {
     flex-wrap: wrap;
+  }
+}
+@media (max-width: 480px) {
+  .chart {
+    margin: 0px !important;
+    width: 200px !important;
+  }
+  .chart img {
+    margin: 0px !important;
+  }
+  .tbc {
+    width: 90px !important;
+    top: 50px !important;
+    right: 55px !important;
+  }
+  .green, .purple, .lightbrown, .yellow, .pink {
+    margin-top: 15px !important;
   }
 }
 #join .back {
