@@ -110,6 +110,7 @@ nav{
                     font-size: 25px;
                     margin-right: 20px;
 }}}}}
+
 #team{
     .satauri{
         h1{
@@ -117,17 +118,22 @@ nav{
             font-weight: 700;
             line-height: 58px;
             text-align: center;
+            margin-top: 46px;
         }
         p{
             text-align: center;
             opacity: 60%;
             color: $secondaryText;
+            margin-top: 16px;
         }
     }
     .cards{
        display: flex;
-       justify-content: space-evenly;
+       justify-content: space-between;
+       margin-left: 110px;
+       margin-right: 110px;
        .card-yvela{
+        margin-top: 48px;
         h3{
             text-align: center;
             font-size: 20px;
@@ -145,9 +151,5 @@ nav{
             display: flex;
             justify-content:center;
             img{
-                margin-right: 5px;
-            }
-        }
-       }
-    }
-}
+                margin-right: 15px;
+}}}}}

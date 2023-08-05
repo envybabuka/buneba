@@ -81,15 +81,22 @@ nav .nav-all .nav-links ul li button:hover {
   font-weight: 700;
   line-height: 58px;
   text-align: center;
+  margin-top: 46px;
 }
 #team .satauri p {
   text-align: center;
   opacity: 60%;
   color: rgb(82, 85, 96);
+  margin-top: 16px;
 }
 #team .cards {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#team .cards .card-yvela {
+  margin-top: 48px;
 }
 #team .cards .card-yvela h3 {
   text-align: center;
@@ -109,5 +116,5 @@ nav .nav-all .nav-links ul li button:hover {
   justify-content: center;
 }
 #team .cards .card-yvela .links img {
-  margin-right: 5px;
+  margin-right: 15px;
 }/*# sourceMappingURL=global2.css.map */
