@@ -1,6 +1,6 @@
 *{
     font-family: 'Noto Sans Georgian', sans-serif;
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -110,7 +110,177 @@ nav{
                     font-size: 25px;
                     margin-right: 20px;
 }}}}}
+// GUNDI ----------------------------------------------------
+#kau{
 
+.info{
+    margin-top: 158px;
+    .abzaci-2{
+        margin-left: 214px;
+        display: inline-block;
+        h1{
+                font-size: 48px;
+                font-weight: 700;
+                line-height: 58px;
+                letter-spacing: 0px;
+                color: $primaryText;
+                margin-bottom: 32px;
+        }}
+    .abzaci-1{
+        display: flex;
+        margin-left: 11px;
+        margin-right:24px;
+        p{
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                letter-spacing: 2px;
+                color:$primaryText;
+                margin-bottom: 32px;
+        }
+        .xazi{
+                width: 72px;
+                height: 1px;
+                border: 2px solid rgba(29, 33, 48, 1);
+                margin-left:110px;
+                margin-right: 24px;
+                margin-top: 8px;
+            }}}
+            .gundi{
+                display: flex;
+                justify-content: center;
+                margin-top:96px;
+                img{
+                    width: 1670px;
+                    margin-left: 110px;
+                    margin-right: 110px;
+                }}
+                .dabla-text{
+                    .ori-texti{
+                        display: flex;
+                        justify-content: space-evenly;
+                        .text-1,.text-2{
+                            margin-top:96px;
+                            margin-bottom: 96px;
+                            h4{
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 19px;
+                                letter-spacing: 2px;
+                                margin-bottom:16px;
+                            }
+                            h2{
+                                font-size: 28px;
+                                font-weight: 700;
+                                line-height: 42px;
+                                letter-spacing: 0px;
+}}}}}
+@media(max-width:1544px){
+    .xazi{
+        margin-left: 0px !important;
+    }
+    .abzaci-2{
+        margin-left: 110px  !important;
+    }
+    .gundi{
+        img{
+            margin-left: 0px !important;
+            margin-right: 0px !important;
+            width:100% !important;
+            height: auto;
+        }
+    }
+}
+@media(max-width:920px){
+.ori-texti{
+    flex-wrap: wrap;
+}
+}
+ @media(max-width:650px){
+    .abzaci-2{
+        margin-left: 10px  !important;
+        h1{
+            font-size: 30px !important;
+            font-weight: 700;
+            line-height: 38px !important;
+            letter-spacing: 0px;
+            color: $primaryText;
+            margin-bottom: 0px !important; 
+        }
+    }
+    .text-1,.text-2{
+        text-align: center;
+        margin-top:40px !important;
+        margin-bottom:10px !important;
+    }
+    .info{
+        margin-top: 30px  !important;
+    }
+ }
+//  SUPPORT-----------------------------
+ #supporter{
+    margin-left: 110px;
+    margin-right:110px;
+    margin-bottom: 96px;
+    .gv{
+        display: flex;
+        margin-top: 73px;
+        margin-bottom: 32px;
+        h3{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 2px;
+        margin-right: 24px;
+        }
+        .xazi-mk{
+            border: 1px solid rgba(229, 229, 229, 1);
+            width:1487px;
+            height: 1px;
+            margin-top: 6px;
+        }
+       } 
+       .logos{
+        display: flex;
+        justify-content:space-between;
+       }
+}
+@media (max-width:1500px){
+    .xazi-mk{
+        width: 100%;
+        width: 1119px !important;
+    }
+}
+@media(max-width:1444px){
+    .gv{
+        h3{
+            margin-right: 0px !important;
+        }
+        .logos{
+            flex-wrap: wrap !important;
+        }
+    }
+}
+@media(max-width:920px){
+    .logos{
+        flex-wrap: wrap !important;
+    }
+}
+ @media(max-width:650px){
+    #supporter{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .logos{
+        img{
+            margin-top: 10px;
+        }
+    }
+    .xazi-mk{
+        display: none;
+    }
+ }
+// WEVREBI-----------------------------------------------
 #team{
     .satauri{
         h1{
@@ -130,6 +300,7 @@ nav{
     .cards{
        display: flex;
        justify-content: space-between;
+       flex-wrap: wrap;
        margin-left: 110px;
        margin-right: 110px;
        .card-yvela{
@@ -153,3 +324,441 @@ nav{
             img{
                 margin-right: 15px;
 }}}}}
+@media(max-width:810px){
+    .cards{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        justify-content: center !important;
+    }
+}
+
+#join{
+    .back{
+        background: url(img/wind.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-top: 96px;
+        margin-bottom: 96px;
+        border-radius: 12px;
+        h1{
+            text-align: center;
+            padding-top:93px;
+            color: white;
+            margin-bottom: 32px;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+        }
+        .join-donate{
+            display: flex;
+            justify-content: center;
+            padding-bottom: 92px;
+            .jn{
+            @include mwvane;
+            padding: 16px 32px;
+            color: white;
+            cursor: pointer;
+            transition: 0.4s;
+            margin-right: 16px;
+            &:hover{
+                background-color: white;
+                color: black;               
+            }
+            }
+            .don{
+                @include tetri;
+                cursor: pointer;
+                padding: 16px 32px;
+                transition: 0.4s;
+                margin-left: 16px;
+                &:hover{
+                   background-color: $greenP;
+                   color: white;
+}}}}}
+@media(max-width:650px){
+    .join-donate{
+        // display: flex;
+        // flex-direction: column;
+        flex-wrap: wrap;
+        button{
+            margin-right: 0px !important;
+            margin-left: 0px !important;
+            margin-top: 10px !important;
+        }
+    }
+    .back{
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        h1{
+            font-size: 43px !important;
+        }
+    }
+}
+
+#news{
+    .satauri_1{
+        display: flex;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 48px;
+        h1{
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 56px;
+            margin-right: 24px;
+        }
+        .xazi-vert{
+            margin-top: 30px;
+            width: 1170px;
+            height: 1px;
+            background: rgba(229, 229, 229, 1);
+        }
+    }
+    .kartebi{
+        display: flex;
+        justify-content:space-between;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 96px;
+        .karti_{
+            .deplini{
+                width: 302px;
+                height: 192px;
+                border-radius: 8px;
+            }
+            h3{
+                font-size: 15px;
+                font-weight: 600;
+                line-height: 30px;
+            }
+            p{
+                font-size: 13px;
+                font-weight: 400;
+                line-height: 26px;
+                text-align: left;
+}}}}
+@media(max-width:1500px){
+    .xazi-vert{
+        width: 809px !important;
+    }
+    .satauri_1{
+        h1{
+            display: inline-block !important;
+        }
+    }
+    @media(max-width:1444px){
+        .kartebi{
+            flex-wrap: wrap;
+        }
+        .karti_{
+            margin-bottom: 25px;
+        }
+    }
+}
+@media(max-width:920px){
+ .kartebi{
+    justify-content: center!important;
+    margin:0px !important;
+ }
+ .karti_{
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+ }
+}
+@media(max-width:480px){
+    .satauri_1{
+        h1{
+            text-align: center  !important;
+            font-size: 25px  !important;
+            margin: 0px !important;
+            margin-left: 10px !important;
+        }
+        .xazi-vert{
+            display: none !important;
+        }
+    }
+}
+// Events----------------------------------------------
+#events{
+    .satauri_1{
+        display: flex;
+        margin-left: 110px;
+        margin-right: 110px;
+        margin-bottom: 48px;
+        h1{
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 56px;
+            margin-right: 24px;
+            display: inline;
+        }
+        .xazi-vert{
+            margin-top: 30px;
+            width: 1190px;
+            height: 1px;
+            background: rgba(229, 229, 229, 1);
+        }
+    }
+    .ori-mwvane{
+        display: flex;
+        margin-right: 90px;
+        margin-left: 110px;
+        justify-content:center;
+        .meore-mwvane{
+            margin-left: 24px;
+            width: 808px;
+        }
+        .pirveli-mwvane{
+            background-color: $greenS;
+            display: flex;
+            margin-right:24px;
+            border-radius: 8px;
+            margin-bottom:96px;
+            width:808px ;
+            .dge{
+                margin-top: 32px;
+                margin-left:40px;
+                margin-right: 24px;
+                h2{
+                    font-weight: 800;
+                    font-size: 48px;
+                    line-height: 67px;
+                    color: $primaryText;
+                }
+                h4{
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 18px;
+                    letter-spacing: 2px;
+                }
+            }
+            .det{
+                .next-event{
+                    display: flex;
+                    margin-top:40px;
+                    margin-bottom:12px;
+                    p{
+                       color: $primaryText;
+                       font-size: 18px;
+                       line-height: 18px;
+                       letter-spacing: 2px;
+                       font-weight: 600;
+                    }
+                    h2{
+                        font-weight: 800;
+                        font-size: 28px;
+                        line-height: 42px;
+                        color: $primaryText;
+                    }
+                    .xazi-event{
+                        width: 44px;
+                        height: 2px;
+                        background-color: $primaryText;
+                        margin-left: 23px;
+                        border: 2px;
+                        margin-top: 7px;
+                    }}}
+            .isari{
+                button{
+                    width: 56px;
+                    height: 56px;
+                    border-radius:50%;
+                    background-color: white;
+                    margin-left: 74px;
+                    border: none;
+                    margin-top: 64px;
+                    margin-right: 48px;
+                    margin-bottom: 71px;
+                    cursor: pointer;
+                    transition: 0.5s;
+                    &:hover{
+                        background-color: $greenP;
+                        border-radius: 0px;
+                    }
+}}}}}
+@media(max-width:1500px){
+    .pirveli-mwvane{
+        width: 608px !important;
+    }
+}
+@media(max-width:1444px){
+    .ori-mwvane{
+        flex-wrap: wrap;
+    }
+    .pirveli-mwvane{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+    }
+    .meore-mwvane{
+        margin-right: 0px !important;
+    }
+    .resp-but{
+        margin-right: 20px !important;
+    }
+}
+@media(max-width:920px){
+    .ori-mwvane{
+        margin: 0px !important;
+    }
+}
+@media(max-width:650px){
+    .isari{
+        button{
+            margin-right: 10px !important;
+            margin-left: 10px !important;
+        }
+    }
+    .satauri_1{
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+    .xazi-vert{
+        display: none !important;
+    }
+}
+
+footer{
+    background-color: black;
+    color: white;
+    .yvela-seqcia{
+        display: flex;
+        padding-top:97px;
+        margin-left: 110px;
+        .footer-logo img{
+            width: 120px;
+            margin-right:117px;
+        }
+      .seqcia_f_1{
+        margin-right:88px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                }
+                b{
+                    color: white;
+                }
+            }
+        }
+
+      }
+      .seqcia_f_2{
+        margin-right: 88px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                    display: inline;
+                }
+                b{
+                    color: white;
+                }
+            }
+        }
+      }
+      .seqcia_f_3{
+        margin-right:147px;
+        ul{
+            li{
+                margin-bottom: 24px;
+                .yvela-op{
+                    color: white;
+                    line-height: 22px;
+                    opacity: 78%;
+                }
+                b{
+                    color: white;
+                }
+            }
+        }
+      }
+      .seqcia_f_4{
+        h1{
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 56px;
+            letter-spacing: 0px;
+            text-align: left;
+            margin-right: 110px;
+        }
+        .b-inp{
+            input{
+                width: 536px;
+                height: 64px;
+                margin-top: 32px;
+                background-color: black;
+                border: 1px solid rgba(235, 240, 249, 0.3);
+                color: white;
+                margin-right: 0px;
+                font-size: 18px;
+            }
+            input:focus{
+                border: none;
+            }
+            button{
+                @include tetri;
+                padding: 22px 32px;
+                margin-bottom: 98px;
+                &:hover{
+                    cursor: pointer;
+                    background-color: $greenP;
+                    color: white;
+}}}}}}
+@media(max-width:1500px){
+    .b-inp{
+        input{
+            width: 300px !important;
+        }
+    }
+}
+@media(max-width:1444px){
+    .yvela-seqcia{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .seqcia_f_4{
+        margin-top: 20px;
+    }
+}
+@media(max-width:920px){
+    .yvela-seqcia{
+        margin-left: 0px !important;
+        padding-left: 0px !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+    .footer-logo{
+        width: 80px !important;
+        display: none !important;
+        img{
+            margin-right: 80px !important;
+        }
+    }
+}
+@media(max-width:650px){
+    .xazi{
+        display: none;
+    }
+}
+@media(max-width:480px){
+    .seqcia_f_4{
+        h1{
+            margin-right: 10px !important;
+        }
+    }
+    .xazi-event{
+        display: none;
+    }
+    .dge{
+        margin-left: 5px !important;
+    }
+}

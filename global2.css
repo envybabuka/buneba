@@ -76,6 +76,173 @@ nav .nav-all .nav-links ul li button:hover {
     margin-right: 20px;
   }
 }
+#kau .info {
+  margin-top: 158px;
+}
+#kau .info .abzaci-2 {
+  margin-left: 214px;
+  display: inline-block;
+}
+#kau .info .abzaci-2 h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+  letter-spacing: 0px;
+  color: rgb(29, 33, 48);
+  margin-bottom: 32px;
+}
+#kau .info .abzaci-1 {
+  display: flex;
+  margin-left: 11px;
+  margin-right: 24px;
+}
+#kau .info .abzaci-1 p {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2px;
+  color: rgb(29, 33, 48);
+  margin-bottom: 32px;
+}
+#kau .info .abzaci-1 .xazi {
+  width: 72px;
+  height: 1px;
+  border: 2px solid rgb(29, 33, 48);
+  margin-left: 110px;
+  margin-right: 24px;
+  margin-top: 8px;
+}
+#kau .gundi {
+  display: flex;
+  justify-content: center;
+  margin-top: 96px;
+}
+#kau .gundi img {
+  width: 1670px;
+  margin-left: 110px;
+  margin-right: 110px;
+}
+#kau .dabla-text .ori-texti {
+  display: flex;
+  justify-content: space-evenly;
+}
+#kau .dabla-text .ori-texti .text-1, #kau .dabla-text .ori-texti .text-2 {
+  margin-top: 96px;
+  margin-bottom: 96px;
+}
+#kau .dabla-text .ori-texti .text-1 h4, #kau .dabla-text .ori-texti .text-2 h4 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
+}
+#kau .dabla-text .ori-texti .text-1 h2, #kau .dabla-text .ori-texti .text-2 h2 {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0px;
+}
+
+@media (max-width: 1544px) {
+  .xazi {
+    margin-left: 0px !important;
+  }
+  .abzaci-2 {
+    margin-left: 110px !important;
+  }
+  .gundi img {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    width: 100% !important;
+    height: auto;
+  }
+}
+@media (max-width: 920px) {
+  .ori-texti {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 650px) {
+  .abzaci-2 {
+    margin-left: 10px !important;
+  }
+  .abzaci-2 h1 {
+    font-size: 30px !important;
+    font-weight: 700;
+    line-height: 38px !important;
+    letter-spacing: 0px;
+    color: rgb(29, 33, 48);
+    margin-bottom: 0px !important;
+  }
+  .text-1, .text-2 {
+    text-align: center;
+    margin-top: 40px !important;
+    margin-bottom: 10px !important;
+  }
+  .info {
+    margin-top: 30px !important;
+  }
+}
+#supporter {
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 96px;
+}
+#supporter .gv {
+  display: flex;
+  margin-top: 73px;
+  margin-bottom: 32px;
+}
+#supporter .gv h3 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 2px;
+  margin-right: 24px;
+}
+#supporter .gv .xazi-mk {
+  border: 1px solid rgb(229, 229, 229);
+  width: 1487px;
+  height: 1px;
+  margin-top: 6px;
+}
+#supporter .logos {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1500px) {
+  .xazi-mk {
+    width: 100%;
+    width: 1119px !important;
+  }
+}
+@media (max-width: 1444px) {
+  .gv h3 {
+    margin-right: 0px !important;
+  }
+  .gv .logos {
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 920px) {
+  .logos {
+    flex-wrap: wrap !important;
+  }
+}
+@media (max-width: 650px) {
+  #supporter {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logos img {
+    margin-top: 10px;
+  }
+  .xazi-mk {
+    display: none;
+  }
+}
 #team .satauri h1 {
   font-size: 48px;
   font-weight: 700;
@@ -92,6 +259,7 @@ nav .nav-all .nav-links ul li button:hover {
 #team .cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-left: 110px;
   margin-right: 110px;
 }
@@ -117,4 +285,447 @@ nav .nav-all .nav-links ul li button:hover {
 }
 #team .cards .card-yvela .links img {
   margin-right: 15px;
+}
+
+@media (max-width: 810px) {
+  .cards {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    justify-content: center !important;
+  }
+}
+#join .back {
+  background: url(img/wind.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  border-radius: 12px;
+}
+#join .back h1 {
+  text-align: center;
+  padding-top: 93px;
+  color: white;
+  margin-bottom: 32px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 58px;
+}
+#join .back .join-donate {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 92px;
+}
+#join .back .join-donate .jn {
+  background: rgb(112, 193, 116);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+  transition: 0.4s;
+  margin-right: 16px;
+}
+#join .back .join-donate .jn:hover {
+  background-color: white;
+  color: black;
+}
+#join .back .join-donate .don {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  cursor: pointer;
+  padding: 16px 32px;
+  transition: 0.4s;
+  margin-left: 16px;
+}
+#join .back .join-donate .don:hover {
+  background-color: rgb(112, 193, 116);
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .join-donate {
+    flex-wrap: wrap;
+  }
+  .join-donate button {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    margin-top: 10px !important;
+  }
+  .back {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .back h1 {
+    font-size: 43px !important;
+  }
+}
+#news .satauri_1 {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 48px;
+}
+#news .satauri_1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  margin-right: 24px;
+}
+#news .satauri_1 .xazi-vert {
+  margin-top: 30px;
+  width: 1170px;
+  height: 1px;
+  background: rgb(229, 229, 229);
+}
+#news .kartebi {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 96px;
+}
+#news .kartebi .karti_ .deplini {
+  width: 302px;
+  height: 192px;
+  border-radius: 8px;
+}
+#news .kartebi .karti_ h3 {
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+}
+#news .kartebi .karti_ p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+
+@media (max-width: 1500px) {
+  .xazi-vert {
+    width: 809px !important;
+  }
+  .satauri_1 h1 {
+    display: inline-block !important;
+  }
+}
+@media (max-width: 1500px) and (max-width: 1444px) {
+  .kartebi {
+    flex-wrap: wrap;
+  }
+  .karti_ {
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 920px) {
+  .kartebi {
+    justify-content: center !important;
+    margin: 0px !important;
+  }
+  .karti_ {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+}
+@media (max-width: 480px) {
+  .satauri_1 h1 {
+    text-align: center !important;
+    font-size: 25px !important;
+    margin: 0px !important;
+    margin-left: 10px !important;
+  }
+  .satauri_1 .xazi-vert {
+    display: none !important;
+  }
+}
+#events .satauri_1 {
+  display: flex;
+  margin-left: 110px;
+  margin-right: 110px;
+  margin-bottom: 48px;
+}
+#events .satauri_1 h1 {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 56px;
+  margin-right: 24px;
+  display: inline;
+}
+#events .satauri_1 .xazi-vert {
+  margin-top: 30px;
+  width: 1190px;
+  height: 1px;
+  background: rgb(229, 229, 229);
+}
+#events .ori-mwvane {
+  display: flex;
+  margin-right: 90px;
+  margin-left: 110px;
+  justify-content: center;
+}
+#events .ori-mwvane .meore-mwvane {
+  margin-left: 24px;
+  width: 808px;
+}
+#events .ori-mwvane .pirveli-mwvane {
+  background-color: rgb(190, 243, 192);
+  display: flex;
+  margin-right: 24px;
+  border-radius: 8px;
+  margin-bottom: 96px;
+  width: 808px;
+}
+#events .ori-mwvane .pirveli-mwvane .dge {
+  margin-top: 32px;
+  margin-left: 40px;
+  margin-right: 24px;
+}
+#events .ori-mwvane .pirveli-mwvane .dge h2 {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 67px;
+  color: rgb(29, 33, 48);
+}
+#events .ori-mwvane .pirveli-mwvane .dge h4 {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 2px;
+}
+#events .ori-mwvane .pirveli-mwvane .det .next-event {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 12px;
+}
+#events .ori-mwvane .pirveli-mwvane .det .next-event p {
+  color: rgb(29, 33, 48);
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+#events .ori-mwvane .pirveli-mwvane .det .next-event h2 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 42px;
+  color: rgb(29, 33, 48);
+}
+#events .ori-mwvane .pirveli-mwvane .det .next-event .xazi-event {
+  width: 44px;
+  height: 2px;
+  background-color: rgb(29, 33, 48);
+  margin-left: 23px;
+  border: 2px;
+  margin-top: 7px;
+}
+#events .ori-mwvane .pirveli-mwvane .isari button {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: 74px;
+  border: none;
+  margin-top: 64px;
+  margin-right: 48px;
+  margin-bottom: 71px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+#events .ori-mwvane .pirveli-mwvane .isari button:hover {
+  background-color: rgb(112, 193, 116);
+  border-radius: 0px;
+}
+
+@media (max-width: 1500px) {
+  .pirveli-mwvane {
+    width: 608px !important;
+  }
+}
+@media (max-width: 1444px) {
+  .ori-mwvane {
+    flex-wrap: wrap;
+  }
+  .pirveli-mwvane {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .meore-mwvane {
+    margin-right: 0px !important;
+  }
+  .resp-but {
+    margin-right: 20px !important;
+  }
+}
+@media (max-width: 920px) {
+  .ori-mwvane {
+    margin: 0px !important;
+  }
+}
+@media (max-width: 650px) {
+  .isari button {
+    margin-right: 10px !important;
+    margin-left: 10px !important;
+  }
+  .satauri_1 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    text-align: center !important;
+  }
+  .xazi-vert {
+    display: none !important;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+}
+footer .yvela-seqcia {
+  display: flex;
+  padding-top: 97px;
+  margin-left: 110px;
+}
+footer .yvela-seqcia .footer-logo img {
+  width: 120px;
+  margin-right: 117px;
+}
+footer .yvela-seqcia .seqcia_f_1 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_2 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+  display: inline;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_3 {
+  margin-right: 147px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_4 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 110px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input {
+  width: 536px;
+  height: 64px;
+  margin-top: 32px;
+  background-color: black;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  color: white;
+  margin-right: 0px;
+  font-size: 18px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input:focus {
+  border: none;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 22px 32px;
+  margin-bottom: 98px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button:hover {
+  cursor: pointer;
+  background-color: rgb(112, 193, 116);
+  color: white;
+}
+
+@media (max-width: 1500px) {
+  .b-inp input {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1444px) {
+  .yvela-seqcia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seqcia_f_4 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 920px) {
+  .yvela-seqcia {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 80px !important;
+    display: none !important;
+  }
+  .footer-logo img {
+    margin-right: 80px !important;
+  }
+}
+@media (max-width: 650px) {
+  .xazi {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .seqcia_f_4 h1 {
+    margin-right: 10px !important;
+  }
+  .xazi-event {
+    display: none;
+  }
+  .dge {
+    margin-left: 5px !important;
+  }
 }/*# sourceMappingURL=global2.css.map */
