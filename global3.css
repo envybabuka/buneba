@@ -192,13 +192,197 @@ nav .nav-all .nav-links ul li button:hover {
   display: flex;
   justify-content: space-between;
   margin-bottom: 48px;
+  flex-wrap: wrap;
 }
 .enviroment .yvela-mwvane .yvela-mwvane_2 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 96px;
+}
+.enviroment .seqcia-zevit h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
 }
 .enviroment .yvela-6 {
   width: 384px;
   height: 100px;
   display: flex;
+}
+.enviroment .yvela-6 img {
+  width: 28px;
+  height: 28px;
+  margin-right: 24px;
+  margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+  .ori-gverd {
+    margin-right: 0px !important;
+  }
+  .ori-gverd img {
+    width: 100% !important;
+    margin-top: 20px;
+  }
+  .abzaci-1 p {
+    text-align: center !important;
+  }
+  .abzaci-2 h1 {
+    text-align: center;
+  }
+  .abzaci-2 p {
+    text-align: center;
+  }
+  .satauri-xd h1 {
+    padding-left: 0px !important;
+    padding-top: 20px !important;
+  }
+  .yvela-mwvane {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  .yvela-6 {
+    margin-bottom: 60px !important;
+  }
+}
+footer {
+  background-color: black;
+  color: white;
+}
+footer .yvela-seqcia {
+  display: flex;
+  padding-top: 97px;
+  margin-left: 110px;
+}
+footer .yvela-seqcia .footer-logo img {
+  width: 120px;
+  margin-right: 117px;
+}
+footer .yvela-seqcia .seqcia_f_1 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_1 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_2 {
+  margin-right: 88px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+  display: inline;
+}
+footer .yvela-seqcia .seqcia_f_2 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_3 {
+  margin-right: 147px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li {
+  margin-bottom: 24px;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li .yvela-op {
+  color: white;
+  line-height: 22px;
+  opacity: 78%;
+}
+footer .yvela-seqcia .seqcia_f_3 ul li b {
+  color: white;
+}
+footer .yvela-seqcia .seqcia_f_4 h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-right: 110px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input {
+  width: 536px;
+  height: 64px;
+  margin-top: 32px;
+  background-color: black;
+  border: 1px solid rgba(235, 240, 249, 0.3);
+  color: white;
+  margin-right: 0px;
+  font-size: 18px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp input:focus {
+  border: none;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button {
+  background: rgb(255, 255, 255);
+  padding: 12px 32px;
+  color: rgb(29, 33, 48);
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  transition: 0.4s;
+  cursor: pointer;
+  padding: 22px 32px;
+  margin-bottom: 98px;
+}
+footer .yvela-seqcia .seqcia_f_4 .b-inp button:hover {
+  cursor: pointer;
+  background-color: rgb(112, 193, 116);
+  color: white;
+}
+
+@media (max-width: 1500px) {
+  .b-inp input {
+    width: 300px !important;
+  }
+}
+@media (max-width: 1444px) {
+  .yvela-seqcia {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .seqcia_f_4 {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 920px) {
+  .yvela-seqcia {
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    justify-content: center !important;
+    text-align: center;
+  }
+  .footer-logo {
+    width: 80px !important;
+    display: none !important;
+  }
+  .footer-logo img {
+    margin-right: 80px !important;
+  }
+}
+@media (max-width: 650px) {
+  .xazi {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .seqcia_f_4 h1 {
+    margin-right: 10px !important;
+  }
+  .xazi-event {
+    display: none;
+  }
+  .dge {
+    margin-left: 5px !important;
+  }
 }/*# sourceMappingURL=global3.css.map */
