@@ -43,6 +43,9 @@ $border: rgba(229, 229, 229, 1);
     transition: 0.4s;
     cursor: pointer;
 }
+body{
+    background: rgba(235, 240, 249, 1);
+}
 nav{
     .nav-all{
         display: flex;
@@ -95,7 +98,7 @@ nav{
     }
 }
 }
-@media(max-width:1000px){
+@media(max-width:1200px){
     .nav-links{
         ul{
             li{
@@ -147,7 +150,6 @@ nav{
             }}}
 .ori-gverd{
     display: flex;
-    justify-content: space-between;
     margin-right: 110px;
     img{
         margin-top: 156px;
@@ -202,92 +204,186 @@ nav{
             margin-top: 156px;
             width:450px;
 }}}
-.enviroment{
-    background: rgba(239, 247, 242, 1);
-    .satauri-xd{
-        h1{
-            font-size: 48px;
-            font-weight: 700;
-            line-height: 58px;
-            padding-top: 96px;
-            padding-bottom:64px;
-            padding-left: 110px;
-        }
+.informacia{
+    margin-top: 153px;
+    margin-left:166px;
+    margin-bottom: 96px;
+    h3{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        margin-bottom:10px;
     }
-    .yvela-mwvane{
+    .mail{
         display: flex;
-        flex-direction: column;
-        margin-left: 110px;
-        margin-right: 110px;
-        .yvela-mwvane_1{
-            display: flex;
-            justify-content:space-between;
-            margin-bottom: 48px;
-            flex-wrap: wrap;
-        }
-        .yvela-mwvane_2{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            margin-bottom: 146px;
-        }
-    }
-    .seqcia-zevit{
-        // display: flex;
-        h3{
-            font-size: 24px;
-            font-weight: 700;
-            line-height: 28px;
-        }
         p{
-            margin-top: 6px;
+            margin-right: 32px;
+            margin-top: 10px;
+            color: rgba(82, 85, 96, 1);
         }
     }
-    .yvela-6{
-        width: 384px;
-        height: 100px;
-        display: flex;
+    .wvrili{
+       width: 100%;
+       height: 0px;
+       border: 1px solid rgba(229, 229, 229, 1);
+       margin-top: 16px;
+       margin-bottom: 32px;
+    }
+    .pepe{
+        margin-bottom: 32px;
+        color: rgba(82, 85, 96, 1);
+        line-height: 25px;
+    }
+    .soc-links{
         img{
-            width: 28px;
-            height: 28px;
-            margin-right:24px;
-            margin-top: 5px;
+            width: 20px;
+            height: 20px;
+            margin: 0px !important;
+            margin-right: 20px !important; 
+}}}
+
+#forma{
+    padding-top:96px;
+    background-color: white;
+    .pirveli{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        margin-bottom: 42px;
+        input{
+            border: none;
+            border-bottom: 2px solid silver;
+            width: 368px;
+            height: 57px;
+            padding-top: 20px;
+
         }
+        .saxeli{
+            position:absolute;
+            bottom: 10px;
+            right: 1245px;
+            color: grey;
+            transition: 0.5s;
+            
+        }
+
+        .gvari{
+            position: absolute;
+            bottom: 10px;
+            right: 865px;
+            color: grey;
+            transition: 0.5s;
+        }
+        .saxeli1:valid ~ .saxeli,
+        .saxeli1:focus ~ .saxeli{
+            transform: translateY(-20px);
+        }
+        .gvari1:valid ~ .gvari,
+        .gvari1:focus ~ .gvari{
+            transform: translateY(-20px);
+        }
+        input:focus{
+            outline: none;
+        }
+        .saxeli1{
+            margin-right: 16px;
+        }
+        .gvari1{
+            margin-left: 16px;
+        }
+    }
+    .mesame{
+        display: flex;
+        justify-content: center;
+        input{
+            width: 768px;
+            height: 158px;
+            font-size: 16px;
+            border: 2px solid silver;
+            padding-bottom: 100px;
+            padding-left: 10px;
+        }
+        input:focus{
+            outline:none!important ;
+        }
+    }
+    .gilaka{
+        display: flex;
+        justify-content: center;
+        margin-top: 32px;
+        padding-bottom: 96px;
+        button{
+            @include mwvane;
+            color: white;
+            padding: 16px 32px;
+            &:hover{
+                background:$greenT;
+                color: black;
+            }
+        }
+    }
+    iframe{
+        width:  100%;
     }
 }
-@media(max-width:600px){
+@media(max-width:1500px){
+    .saxeli{
+        right: 1050px !important;
+    }
+    .gvari{
+        right: 670px !important;
+    }
+}
+@media(max-width:1280px){
+    .saxeli{
+        right: 950px !important;
+    }
+    .gvari{
+        right: 560px !important;
+    }
+    .informacia{
+        margin-left: 30px !important;
+    }
     .ori-gverd{
         margin-right: 0px !important;
-        img{
-            width: 100% !important;
-            margin-top: 20px;
-        }
+        flex-wrap: wrap;
+        justify-content: center;
     }
-    .abzaci-1{
-        p{
-            text-align: center  !important;
-        }
+}
+@media(max-width:830px){
+    .informacia{
+        margin-top: 20px;
+        margin-left: 0px !important;
+        text-align: center;
+    }
+    .soc-links{
+        justify-content: center;
+    }
+    .info{
+        text-align: center;
     }
     .abzaci-2{
-        h1{
-            text-align: center;
-        }
-        p{
-            text-align: center;
-        }
+        margin-left: 0px !important; 
     }
-    .satauri-xd{
-        h1{
-            padding-left: 0px !important;
-            padding-top: 20px !important;
-        }
+    .abzaci-1{
+        margin: 0px !important;
+        text-align: center;
     }
-    .yvela-mwvane{
+}
+@media(max-width:1000px){
+    label{
+        display: none !important;
+    }
+}
+@media(max-width:500px){
+    .pirveli{
+        flex-wrap: wrap;
+    }
+    .gvari1{
         margin-left: 0px !important;
-        margin-right: 0px !important;
     }
-    .yvela-6{
-        margin-bottom: 60px  !important;
+    .saxeli1{
+        margin-right: 0px !important; 
     }
 }
 footer{

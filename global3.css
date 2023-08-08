@@ -198,12 +198,15 @@ nav .nav-all .nav-links ul li button:hover {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 96px;
+  margin-bottom: 146px;
 }
 .enviroment .seqcia-zevit h3 {
   font-size: 24px;
   font-weight: 700;
   line-height: 28px;
+}
+.enviroment .seqcia-zevit p {
+  margin-top: 6px;
 }
 .enviroment .yvela-6 {
   width: 384px;
