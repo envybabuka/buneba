@@ -512,7 +512,6 @@ header .b-info .b-buttons button:hover {
   }
   .card_3 {
     width: 297px !important;
-    margin-top: 20px;
   }
 }
 @media (max-width: 920px) {
@@ -642,6 +641,7 @@ header .b-info .b-buttons button:hover {
 @media (max-width: 1500px) {
   .chart {
     margin-left: 194px !important;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 1444px) {
@@ -832,6 +832,7 @@ header .b-info .b-buttons button:hover {
 @media (max-width: 1500px) and (max-width: 1444px) {
   .kartebi {
     flex-wrap: wrap;
+    justify-content: space-evenly !important;
   }
   .karti_ {
     margin-bottom: 25px;
