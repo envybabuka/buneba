@@ -133,6 +133,10 @@ nav{
             color: white;
             margin-top: 32px;
             padding: 16px 32px;
+            &:hover{
+                color: $secondaryText;
+                background-color:$greenS;
+            }
         }
     }
     .abzaci-1{

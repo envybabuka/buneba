@@ -108,6 +108,10 @@ nav .nav-all .nav-links ul li button:hover {
   margin-top: 32px;
   padding: 16px 32px;
 }
+.info .abzaci-2 button:hover {
+  color: rgb(82, 85, 96);
+  background-color: rgb(190, 243, 192);
+}
 .info .abzaci-1 {
   display: flex;
   margin-left: 11px;
