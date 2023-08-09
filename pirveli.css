@@ -326,11 +326,8 @@ header .b-info .b-buttons button:hover {
 #wwd .dzagli_ {
   margin-top: 210px;
   margin-left: 96px;
-}
-#wwd .dzagli_ .dzagli_img {
   margin-right: 110px;
 }
-
 @media (max-width: 1444px) {
   .dzagli_ {
     display: none;
@@ -410,8 +407,8 @@ header .b-info .b-buttons button:hover {
   background: url(img/clean.png);
   background-repeat: no-repeat;
   background-size: cover;
-  margin-left: 23px;
-  margin-right: 23px;
+  margin-left: 43px;
+  margin-right: 43px;
   border-radius: 15px;
   width: 521px;
 }
