@@ -505,18 +505,18 @@ header .b-info .b-buttons button:hover {
     justify-content: space-around !important;
   }
   .card_1 {
-    width: 297px !important;
+    width: 277px !important;
   }
   .card_2 {
-    width: 297px !important;
+    width: 277px !important;
   }
   .card_3 {
-    width: 297px !important;
+    width: 277px !important;
   }
 }
-@media (max-width: 920px) {
-  .card_1 {
-    margin-bottom: 20px !important;
+@media (max-width: 1100px) {
+  .card_1, .card_2, .card_3 {
+    margin-top: 10px;
   }
 }
 #donations {
@@ -667,12 +667,15 @@ header .b-info .b-buttons button:hover {
   .content-pr {
     display: inline !important;
     margin-left: 10px !important;
+    text-align: center !important;
   }
   .content-pr h1 {
     display: inline !important;
+    text-align: center !important;
   }
   .content-pr p {
     margin-top: 10px !important;
+    text-align: center;
   }
 }
 @media (max-width: 650px) {
@@ -698,6 +701,10 @@ header .b-info .b-buttons button:hover {
   }
   .green, .purple, .lightbrown, .yellow, .pink {
     margin-top: 15px !important;
+  }
+  .yellow {
+    margin-right: 0px !important;
+    width: 16px !important;
   }
 }
 #join .back {
