@@ -1068,9 +1068,10 @@ footer .yvela-seqcia .seqcia_f_4 .b-inp input {
   color: white;
   margin-right: 0px;
   font-size: 18px;
+  padding-left: 5px;
 }
 footer .yvela-seqcia .seqcia_f_4 .b-inp input:focus {
-  border: none;
+  outline: none;
 }
 footer .yvela-seqcia .seqcia_f_4 .b-inp button {
   background: rgb(255, 255, 255);
